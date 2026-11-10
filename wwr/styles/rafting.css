@@ -57,7 +57,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -68,7 +68,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     margin: 0;
     position: absolute;
     width: 90%;
