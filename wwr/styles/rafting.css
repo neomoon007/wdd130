@@ -96,6 +96,7 @@ section h2 {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 16px;
+    margin-bottom: 30px;
 }
 
 footer img {
@@ -108,4 +109,51 @@ header img {
 
 figure {
     margin: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 7px;
+}
+
+a {
+    margin-left: 10px;
+    margin-top: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.socialmedia img {
+    width: 32px;
+    height: 32px;
+}
+
+.figure-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.figure-grid figure {
+    margin: 0;
+}
+
+.figure-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.centered {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: calc(50% - 10px);
 }
