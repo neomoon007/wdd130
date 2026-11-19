@@ -19,6 +19,7 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
+    padding: 12px 16px;
 }
 
 body {
@@ -112,24 +113,44 @@ figure {
     margin: 30px;
 }
 
-section p {
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.history-content p {
     line-height: 1.6;
-    margin-bottom: 12px;
+}
+
+.history-content img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
 }
 
 header nav {
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 header nav a {
     text-decoration: none;
     color: var(--primary-color);
-    font-weight: bold;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: 1px solid #777;
+    margin-left: -1px;
+    margin-top: 0;
+    background-color: #fff;
+    text-align: center;
 }
 
 header nav a:hover {
-    color: var(--secondary-color);
-    text-decoration: underline;
+    background-color: var(--secondary-color);
+    color: #fff;
 }
 
 nav {
