@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is contact page for the Capybara Rafting Company">
+    <meta name="author" content="Marcos Ramires da Costa">
+    <title>Contact Us | Capybara Rapids Rafting</title>
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpeg" alt="Rafting logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="company-info">
+            <h1>Capybara Rapids Rafting</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@capybararapids.com</p>
+        </div>
+        <div class="contact-grid">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10000!2d-119.5383!3d37.8651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDUxJzU0LjQiTiAxMTnCsDMyJzE3LjkiVw!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" width="400" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Capybara Rapids Location Map"></iframe>
+            </div>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-row">
+                    <label for="user-name">Name</label>
+                    <input type="text" id="user-name" name="user_name" placeholder="Placeholder" required>
+                </div>
+                <div class="form-row">
+                    <label for="user-email">Email</label>
+                    <input type="email" id="user-email" name="user_email" placeholder="Placeholder" required>
+                </div>
+                <div class="form-row radio-row">
+                    <span class="radio-legend">Message Purpose</span>
+                    <div class="radio-group">
+                        <label><input type="radio" id="purpose-general" name="purpose" value="general" checked> General Inquiry</label>
+                        <label><input type="radio" id="purpose-reservation" name="purpose" value="reservation"> Reservation Question</label>
+                        <label><input type="radio" id="purpose-suggestion" name="purpose" value="suggestion"> Website Suggestion</label>
+                    </div>
+                </div>
+                <div class="form-row textarea-row">
+                    <label for="user-message">Message</label>
+                    <textarea id="user-message" name="user_message" rows="4" placeholder="Type here" required></textarea>
+                </div>
+                <div class="form-checkbox">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit" class="submit-btn">Get in Touch!</button>
+            </form>
+        </div>
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/employee_01.jpg" alt="Carlos Silva - River Operations Manager">
+                    <figcaption>
+                        <strong>Carlos Silva</strong>
+                        <span>River Operations Manager</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee_02.jpg" alt="Beatriz Costa - Lead CapybaraRapids Guide">
+                    <figcaption>
+                        <strong>Beatriz Costa</strong>
+                        <span>Lead CapybaraRapids Guide</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee_03.jpg" alt="Eduardo Ramos - Safety & Equipment Director">
+                    <figcaption>
+                        <strong>Eduardo Ramos</strong>
+                        <span>Safety & Equipment Director</span>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 🛶 Capybara Rapids 🛶 Marcos Ramires</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
